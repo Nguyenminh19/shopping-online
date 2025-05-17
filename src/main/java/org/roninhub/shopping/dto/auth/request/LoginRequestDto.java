@@ -1,10 +1,11 @@
-package org.roninhub.shopping.dto.request;
+package org.roninhub.shopping.dto.auth.request;
 
-public class UserLoginRequestDto {
+public class LoginRequestDto {
+
 	private String email;
 	private String password;
 
-	public UserLoginRequestDto(String email, String password) {
+	public LoginRequestDto(String email, String password) {
 		this.email = email;
 		this.password = password;
 	}
@@ -24,4 +25,5 @@ public class UserLoginRequestDto {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 }
